@@ -1,0 +1,627 @@
+.color-brand {
+    color: var(--mainColor);
+}
+
+.home {
+    background-image: url(../images/SAVE_20220405_114407.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: var(--mainColor);
+}
+
+:root {
+    --mainColor: #ff305b;
+    --mainBackgroundColor: #f1f1f1;
+}
+
+.body {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    text-decoration-style: none;
+}
+
+h4::after {
+    content: "";
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+    3% {
+        content: " ";
+    }
+
+    6% {
+        content: "";
+    }
+
+    9% {
+        content: "W";
+    }
+
+    12% {
+        content: "We";
+    }
+
+    15% {
+        content: "Web";
+    }
+
+    18% {
+        content: "We";
+    }
+
+    21% {
+        content: "W";
+    }
+
+    24% {
+        content: "";
+    }
+
+    27% {
+        content: " ";
+    }
+
+    30% {
+        content: "";
+    }
+
+    33% {
+        content: "D";
+    }
+
+    36% {
+        content: "De";
+    }
+
+    39% {
+        content: "Dev";
+    }
+
+    42% {
+        content: "Deve";
+    }
+
+    45% {
+        content: "Devel";
+    }
+
+    48% {
+        content: "Develo";
+    }
+
+    51% {
+        content: "Develop";
+    }
+
+    54% {
+        content: "Develope";
+    }
+
+    57% {
+        content: "Developer";
+    }
+
+    60% {
+        content: "Develope";
+    }
+
+    63% {
+        content: "Develop";
+    }
+
+    66% {
+        content: "Develo";
+    }
+
+    69% {
+        content: "Devel";
+    }
+
+    72% {
+        content: "Deve";
+    }
+
+    75% {
+        content: "Dev";
+    }
+
+    78% {
+        content: "De";
+    }
+
+    81% {
+        content: "D";
+    }
+
+    84% {
+        content: "Web Developer";
+    }
+
+    87% {
+        content: "Web Developer";
+    }
+
+    90% {
+        content: "Web Developer";
+    }
+
+    93% {
+        content: "Web Developer";
+    }
+
+    96% {
+        content: "Web Developer";
+    }
+
+    99% {
+        content: "Web Developer";
+    }
+
+    100% {
+        content: "Web Developer";
+    }
+
+}
+
+.layers {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+}
+
+.layer h1 {
+    color: var(--mainColor);
+}
+
+nav a {
+    text-align: center;
+}
+
+nav a:hover {
+    color: var(--mainColor) !important;
+}
+
+.button1 {
+    background-color: var(--mainColor);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background-color: #EC2403;
+}
+
+.navbar {
+    z-index: 5555555555555555555555555555555;
+}
+
+.right {
+    border-bottom: 1px dashed #999999;
+}
+
+.about h2 {
+    border-left: var(--mainColor) solid 5px;
+    padding-left: 5px;
+}
+
+.about p {
+    color: #333;
+}
+
+.square {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    box-shadow: 0 0 0 8px #555555 inset;
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/SAVE_20220405_114324.jpg);
+    bottom: -7%;
+    left: 8%;
+    opacity: 1;
+    overflow: hidden;
+
+}
+
+.hov {
+    top: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    transition: all .5s;
+    color: white;
+}
+
+.hov i {
+    color: transparent;
+}
+
+
+.square:hover .hov {
+    top: 0;
+
+}
+
+.square:hover i {
+    color: white;
+
+}
+
+.hov i:hover {
+    color: var(--mainColor);
+    cursor: pointer;
+}
+
+#services {
+    background-color: var(--mainBackgroundColor);
+}
+
+#services i {
+    color: var(--mainColor);
+}
+
+#services p {
+    color: #555555;
+}
+
+.hov-style {
+    transition: all 0.2s;
+}
+
+.hov-style:hover {
+    background-color: white;
+    box-shadow: 0px 0px 7px rgb(189, 186, 186);
+}
+
+.hov-style:hover i {
+    transform: scale(1.2);
+}
+
+
+a:hover {
+    cursor: pointer;
+}
+
+.layer2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.item:hover .layer2 {
+    top: 0%;
+    cursor: pointer;
+
+}
+
+.portfolio a {
+    color: black;
+}
+
+.portfolio i {
+    color: var(--mainColor);
+}
+
+.portfolio i {
+    cursor: pointer;
+}
+
+#all {
+    color: var(--mainColor);
+}
+
+.show {
+    left: 0%;
+    height: 100vh;
+    top: 0%;
+    z-index: 55555555555555555555555555;
+
+
+}
+
+.box {
+    width: 50%;
+
+}
+
+.x {
+    top: 18%;
+    left: 70%;
+    color: rgb(132, 132, 132) !important;
+    cursor: pointer;
+}
+
+.x:hover {
+    color: red !important;
+}
+
+
+.feedback {
+    background-color: var(--mainBackgroundColor);
+    width: 60%;
+    border-radius: 5px;
+    position: relative;
+    min-height: 20%;
+}
+
+.layer3 {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
+.triangle {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-top: var(--mainColor) solid 80px;
+    border-right: transparent solid 80px;
+    border-left: var(--mainColor) solid 80px;
+    border-bottom: transparent solid 80px;
+
+}
+
+.feedback img {
+    overflow: hidden;
+    position: absolute;
+    width: 15%;
+    top: 10%;
+
+}
+
+#o1,
+#o2 {
+    border: solid 1px var(--mainColor);
+}
+
+#o1 {
+    background-color: var(--mainColor);
+    transform: scale(1.5);
+}
+
+#o1:hover,
+#o2:hover {
+    cursor: pointer;
+
+
+}
+
+.feedback h3 {
+    color: #333;
+}
+
+.gold {
+    color: gold;
+}
+
+.empty {
+    color: gold;
+}
+
+.testmonial {
+    background-color: var(--mainBackgroundColor);
+    min-height: 45vh;
+}
+
+.testmonial p {
+    color: #555555;
+}
+
+.testmonial i {
+    color: var(--mainColor);
+}
+
+.blog {
+    background-color: var(--mainBackgroundColor);
+
+}
+
+.blog a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.blog i {
+    transition: color 0.5s;
+}
+
+.readmore:hover a {
+    color: var(--mainColor);
+
+}
+
+.readmore:hover i {
+    color: var(--mainColor);
+
+}
+
+.blog p {
+    color: #333;
+}
+
+iframe {
+    min-width: 212px;
+    min-height: 200px;
+}
+
+.blog h3 {
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.blog h3:hover {
+    color: var(--mainColor);
+}
+
+
+
+
+.contact input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form {
+    width: 65%;
+}
+
+form button {
+    background-color: var(--mainColor);
+    border-radius: 4px;
+    border: none;
+}
+
+form button:hover {
+    background-color: #EC2403;
+}
+
+.lines {
+    border-bottom: solid 1px var(--mainColor);
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+}
+
+.lines::after {
+    content: '';
+    width: 50%;
+    height: 1px;
+    background-color: var(--mainColor);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 108%;
+
+
+}
+
+.lines::before {
+    content: '';
+    width: 50%;
+    height: 1px;
+    background-color: var(--mainColor);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 92%;
+
+
+}
+
+
+
+
+footer {
+    background-color: #333333;
+    height: 25vh;
+    width: 100%;
+}
+
+footer i:hover {
+    color: var(--mainColor);
+}
+
+footer a {
+    color: var(--mainColor);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--mainColor);
+    text-decoration: underline;
+}
+
+.layerr
+{
+    height: 50vh !important;
+    padding: 14px;
+}
+.btn3:hover 
+{
+    background-color: rgb(58, 58, 58);
+}
+
+
+@media screen and (min-width:0px) and (max-width:700px) {
+
+    form {
+        width: 100%;
+    }
+
+    .feedback {
+        width: 100%;
+    }
+
+    .feedback img {
+        width: 25%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .feedback .info {
+        margin-top: 25%;
+    }
+
+    .feedback .info {
+        padding-top: 30%;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .x {
+        top: 35%;
+        left: 85%;
+    }
+
+    .image {
+        bottom: 0%;
+        left: 0%;
+
+    }
+
+    .right {
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+}
+
+@media screen and (min-width:701px) and (max-width:992px) {
+    .right {
+        margin-top: 50px;
+    }
+}
